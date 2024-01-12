@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+}
+
+h1{
+	text-align: center;
+    font-size: 24px;
+    color: #333;
+}
+
+div {
+  width: 50%;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+a {
+  display: block;
+  margin: 10px 0;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #3498db;
+  border-radius: 5px;
+}
+
+a:hover {
+  background-color: #2980b9;
+}
+
+a[href="newSong"] {
+  background-color: #2ecc71;
+}
+
+a[href="newSong"]:hover {
+  background-color: #27ae60;
+}
+
+a[href="viewSongs"] {
+  background-color: #e74c3c;
+}
+
+a[href="viewSongs"]:hover {
+  background-color: #c0392b;
+}
+
+a[href="createPlaylist"] {
+  background-color: #f39c12;
+}
+
+a[href="createPlaylist"]:hover {
+  background-color: #d35400;
+}
+
+a[href="viewPlaylists"] {
+  background-color: #9b59b6;
+}
+
+a[href="viewPlaylists"]:hover {
+  background-color: #8e44ad;
+}
